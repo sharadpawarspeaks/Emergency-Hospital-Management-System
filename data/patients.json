@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "next_sequence": 10,
+    "next_id_counter": 1010
+  },
+  "patients": [
+    {
+      "patient_id": "PAT-1001",
+      "name": "Sharad Pawar",
+      "age": 21,
+      "gender": "Male",
+      "contact": "+91 9423729690",
+      "symptoms": "Vomiting, fever, sugar,",
+      "priority": 2,
+      "arrival_time": "2026-10-17 11:17 PM",
+      "arrival_timestamp": 1792259270.408994,
+      "arrival_sequence": 2,
+      "status": "Completed",
+      "treatment_start_time": "2026-10-17 11:18 PM",
+      "treatment_completion_time": "2026-10-17 11:18 PM",
+      "treatment_notes": "Patient stabilized in emergency care bay. Vital signs normal. Prescriptions provided.",
+      "attending_doctor": "Dr. S. Nair (Chief ER)",
+      "triage_room": "Bay 1 - Trauma Care"
+    },
+    {
+      "patient_id": "PAT-1002",
+      "name": "Siya Salunkhe",
+      "age": 19,
+      "gender": "Female",
+      "contact": "987654321",
+      "symptoms": "Fever",
+      "priority": 2,
+      "arrival_time": "2026-10-18 10:15 PM",
+      "arrival_timestamp": 1792341938.375497,
+      "arrival_sequence": 3,
+      "status": "Completed",
+      "treatment_start_time": "2026-10-18 10:27 PM",
+      "treatment_completion_time": "2026-10-18 10:27 PM",
+      "treatment_notes": "Patient stabilized in emergency care bay. Vital signs normal. Prescriptions provided.",
+      "attending_doctor": "Dr. P. Mehta (Critical Care Specialist)",
+      "triage_room": "Bay 4 - General ER Observation"
+    },
+    {
+      "patient_id": "PAT-1003",
+      "name": "Samiksha Patil",
+      "age": 19,
+      "gender": "Female",
+      "contact": "789456123",
+      "symptoms": "Pimple",
+      "priority": 1,
+      "arrival_time": "2026-10-18 10:16 PM",
+      "arrival_timestamp": 1792341980.453634,
+      "arrival_sequence": 4,
+      "status": "Cancelled",
+      "treatment_start_time": null,
+      "treatment_completion_time": null,
+      "treatment_notes": "Removed from queue: Patient left against medical advice (LAMA)",
+      "attending_doctor": "Dr. S. Nair (Chief ER)",
+      "triage_room": "Bay 1 - Trauma Care"
+    },
+    {
+      "patient_id": "PAT-1004",
+      "name": "Sharad Pawar",
+      "age": 21,
+      "gender": "Male",
+      "contact": "963258741",
+      "symptoms": "Vomiting",
+      "priority": 3,
+      "arrival_time": "2026-10-18 10:17 PM",
+      "arrival_timestamp": 1792342025.539292,
+      "arrival_sequence": 5,
+      "status": "Waiting",
+      "treatment_start_time": null,
+      "treatment_completion_time": null,
+      "treatment_notes": "",
+      "attending_doctor": "Dr. S. Nair (Chief ER)",
+      "triage_room": "Bay 1 - Trauma Care"
+    },
+    {
+      "patient_id": "PAT-1005",
+      "name": "Om Deokar",
+      "age": 20,
+      "gender": "Male",
+      "contact": "741852963",
+      "symptoms": "Back Pain",
+      "priority": 2,
+      "arrival_time": "2026-10-18 10:18 PM",
+      "arrival_timestamp": 1792342088.777866,
+      "arrival_sequence": 6,
+      "status": "Waiting",
+      "treatment_start_time": null,
+      "treatment_completion_time": null,
+      "treatment_notes": "",
+      "attending_doctor": "Dr. S. Nair (Chief ER)",
+      "triage_room": "Bay 1 - Trauma Care"
+    },
+    {
+      "patient_id": "PAT-1006",
+      "name": "Samiksha Patil",
+      "age": 19,
+      "gender": "Female",
+      "contact": "7894561230",
+      "symptoms": "Headache",
+      "priority": 1,
+      "arrival_time": "2026-10-18 10:20 PM",
+      "arrival_timestamp": 1792342235.154393,
+      "arrival_sequence": 7,
+      "status": "Completed",
+      "treatment_start_time": "2026-10-18 10:27 PM",
+      "treatment_completion_time": "2026-10-18 10:27 PM",
+      "treatment_notes": "Patient stabilized in emergency care bay. Vital signs normal. Prescriptions provided.",
+      "attending_doctor": "Dr. P. Mehta (Critical Care Specialist)",
+      "triage_room": "Bay 4 - General ER Observation"
+    },
+    {
+      "patient_id": "PAT-1007",
+      "name": "Shubham Vasu",
+      "age": 45,
+      "gender": "Male",
+      "contact": "8796542310",
+      "symptoms": "Pimple, Acne, Tanning",
+      "priority": 1,
+      "arrival_time": "2026-10-18 10:21 PM",
+      "arrival_timestamp": 1792342311.988026,
+      "arrival_sequence": 8,
+      "status": "Completed",
+      "treatment_start_time": "2026-10-18 10:27 PM",
+      "treatment_completion_time": "2026-10-18 10:27 PM",
+      "treatment_notes": "Patient stabilized in emergency care bay. Vital signs normal. Prescriptions provided.",
+      "attending_doctor": "Dr. A. Verma (Trauma Surgeon)",
+      "triage_room": "Bay 4 - General ER Observation"
+    },
+    {
+      "patient_id": "PAT-1008",
+      "name": "Ajinkya Wagh",
+      "age": 20,
+      "gender": "Male",
+      "contact": "7985412603",
+      "symptoms": "COVID - 19",
+      "priority": 2,
+      "arrival_time": "2026-10-18 10:22 PM",
+      "arrival_timestamp": 1792342374.653813,
+      "arrival_sequence": 9,
+      "status": "Waiting",
+      "treatment_start_time": null,
+      "treatment_completion_time": null,
+      "treatment_notes": "",
+      "attending_doctor": "Dr. S. Nair (Chief ER)",
+      "triage_room": "Bay 1 - Trauma Care"
+    },
+    {
+      "patient_id": "PAT-1009",
+      "name": "Niraj  Patil",
+      "age": 19,
+      "gender": "Male",
+      "contact": "9785416302",
+      "symptoms": "Dipression",
+      "priority": 2,
+      "arrival_time": "2026-10-18 10:23 PM",
+      "arrival_timestamp": 1792342400.62506,
+      "arrival_sequence": 10,
+      "status": "Waiting",
+      "treatment_start_time": null,
+      "treatment_completion_time": null,
+      "treatment_notes": "",
+      "attending_doctor": "Dr. S. Nair (Chief ER)",
+      "triage_room": "Bay 1 - Trauma Care"
+    }
+  ],
+  "activity_log": [
+    {
+      "timestamp": "11:17 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Sharad Pawar (PAT-1001) as High Priority",
+      "level": "warning"
+    },
+    {
+      "timestamp": "11:18 PM",
+      "action": "TREATMENT_STARTED",
+      "message": "Started treatment for Sharad Pawar (PAT-1001) in Bay 1 - Trauma Care",
+      "level": "success"
+    },
+    {
+      "timestamp": "11:18 PM",
+      "action": "TREATMENT_COMPLETED",
+      "message": "Completed treatment for Sharad Pawar (PAT-1001).",
+      "level": "success"
+    },
+    {
+      "timestamp": "10:15 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Siya Salunkhe (PAT-1002) as High Priority",
+      "level": "warning"
+    },
+    {
+      "timestamp": "10:16 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Samiksha Patil (PAT-1003) as Critical Emergency",
+      "level": "critical"
+    },
+    {
+      "timestamp": "10:17 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Sharad Pawar (PAT-1004) as Normal",
+      "level": "info"
+    },
+    {
+      "timestamp": "10:18 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Om Deokar (PAT-1005) as High Priority",
+      "level": "warning"
+    },
+    {
+      "timestamp": "10:19 PM",
+      "action": "PATIENT_REMOVED",
+      "message": "Removed PAT-1003 from queue. Reason: Patient left against medical advice (LAMA)",
+      "level": "warning"
+    },
+    {
+      "timestamp": "10:20 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Samiksha Patil (PAT-1006) as Critical Emergency",
+      "level": "critical"
+    },
+    {
+      "timestamp": "10:21 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Shubham Vasu (PAT-1007) as Critical Emergency",
+      "level": "critical"
+    },
+    {
+      "timestamp": "10:22 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Ajinkya Wagh (PAT-1008) as High Priority",
+      "level": "warning"
+    },
+    {
+      "timestamp": "10:23 PM",
+      "action": "PATIENT_REGISTERED",
+      "message": "Registered Niraj  Patil (PAT-1009) as High Priority",
+      "level": "warning"
+    },
+    {
+      "timestamp": "10:27 PM",
+      "action": "TREATMENT_STARTED",
+      "message": "Started treatment for Samiksha Patil (PAT-1006) in Bay 4 - General ER Observation",
+      "level": "success"
+    },
+    {
+      "timestamp": "10:27 PM",
+      "action": "TREATMENT_COMPLETED",
+      "message": "Completed treatment for Samiksha Patil (PAT-1006).",
+      "level": "success"
+    },
+    {
+      "timestamp": "10:27 PM",
+      "action": "TREATMENT_STARTED",
+      "message": "Started treatment for Shubham Vasu (PAT-1007) in Bay 4 - General ER Observation",
+      "level": "success"
+    },
+    {
+      "timestamp": "10:27 PM",
+      "action": "TREATMENT_COMPLETED",
+      "message": "Completed treatment for Shubham Vasu (PAT-1007).",
+      "level": "success"
+    },
+    {
+      "timestamp": "10:27 PM",
+      "action": "TREATMENT_STARTED",
+      "message": "Started treatment for Siya Salunkhe (PAT-1002) in Bay 4 - General ER Observation",
+      "level": "success"
+    },
+    {
+      "timestamp": "10:27 PM",
+      "action": "TREATMENT_COMPLETED",
+      "message": "Completed treatment for Siya Salunkhe (PAT-1002).",
+      "level": "success"
+    }
+  ]
+}
